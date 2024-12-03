@@ -1,11 +1,12 @@
 .id{
     
-    display: inline-block;
+    display: flex;
     align-content: center;
     position: relative;
     width: 200px;
     height: 100px;
     margin: auto;
+    justify-content: center;
     
 
     
