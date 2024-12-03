@@ -15,10 +15,13 @@
                     <input type="text" id="fname" required><br><br>
                     <label for="email"><span style="font-weight: bold;"><span style="font-weight: bold;">Enter your mail id:</span></span></label>
                     <input type="text" id="mail" required><br><br>
+                    <label for="number"><span style="font-weight: bold;">Country code</span></label>
+                    <input type="text" name="" id="ccode" required style="width: 20px;"><br><br>
                     <label for="number"><span style="font-weight: bold;">Enter your phone number here:</span></label>
                     <input type="text" name="" id="phn" required><br><br>
                     <label for="password"><span style="font-weight: bold;">Type your password</span></label>
-                    <input type="text" name="" id="pass" required><br><br>
+                    <input type="text" name="" id="pass" required type="pswrd"><br><br>
+                    <input type="checkbox" id="shpswrd" onclick="toggleVisible()">show password<br><br>
                     <label for="confirm-password"><span style="font-weight: bold;">Please confirm your password</span></label>
                     <input type="text" name="" id="cnf" required><br><br>
                    <div class="bt2"> <button class="bt1" id="bt3" type="submit" onclick="validForm()">Login</button></div>
