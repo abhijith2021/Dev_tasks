@@ -91,3 +91,7 @@ function toggleVisible(){
         pass.type = "password";
     }
 }
+
+function change(){
+    document.getElementsByClassName("a1").
+}
