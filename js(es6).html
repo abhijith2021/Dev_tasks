@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    
+    <script>
+       const family = new Map([
+        ["achu" , "son"],
+        ["ammu", "daughter"]
+       ]);
+       let fam = family.get("achu");
+       document.getElementById("demo1").innerHTML = fam;
+
+       const family1 = new Set();
+
+       family1.add("achu");
+       family1.add("ammu");
+       family1.add("achan");
+       family1.add("amma");
+    //    family1.remove();
+       let fam1 = family.get("achu1");
+       document.getElementById("demo2").innerHTML = family1.size;
+
+       const human = new Map();
+       human.set("achu", 200);
+       console.log(human.get("achu"));
+    </script>
+</body>
+</html>
+<!-- javascript map and set
+ js map can be created using new Map() or map.set()
+ js set can be create using new Set()
+ then add elemeents using set_name.add() -->
