@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <script>
+        class car{
+            constructor(name,year){
+                this.name = name;
+                this.year = year;
+            }
+
+        }
+        const myCar = new car("audi",1999);
+        document.getElementById("demo").innerHTML = myCar.name+ "," + myCar.year;
+
+        const Age = new Map([
+            ['a',19],
+            ['b',20]
+        ]);
+        let x = Age.get("a")
+        document.getElementById("demo1").innerHTML = x;
+
+        const Things = new Set();
+        Things.add("a");
+        Things.add("b");
+
+        document.getElementById("demo2").innerHTML = "is " + Things.size;
+
+
+
+
+
+    </script>
+</body>
+</html>
