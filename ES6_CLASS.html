@@ -9,6 +9,7 @@
     <p id="demo"></p>
     <p id="demo1"></p>
     <p id="demo2"></p>
+    <p id="demo3"></p>
     <script>
         class car{
             constructor(name,year){
@@ -32,6 +33,11 @@
         Things.add("b");
 
         document.getElementById("demo2").innerHTML = "is " + Things.size;
+        // set function in javascript
+
+        const a = (x,y) => x * y;
+        document.getElementById("demo3").innerHTML = a(5,5);
+        // arrow function avoiding returns
 
 
 
